@@ -13,7 +13,7 @@ export function buildContentIndex(): string {
   const data = buildSiteData(loaded.entries);
   return JSON.stringify(
     {
-      generated_at: new Date().toISOString(),
+      latest_content_date: data.entries[0]?.date ?? null,
       categories: data.categories.map((category) => ({
         key: category.definition.key,
         name: category.definition.name,
