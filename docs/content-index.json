@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T23:37:18.462Z",
+  "generated_at": "2026-04-17T23:49:49.544Z",
   "categories": [
     {
       "key": "ai-news",
@@ -12,8 +12,7 @@
           "month": "2026-04",
           "route": "/ai-news/2026/04/",
           "dates": [
-            "2026-04-18",
-            "2026-04-17"
+            "2026-04-18"
           ]
         }
       ]
@@ -29,8 +28,7 @@
           "month": "2026-04",
           "route": "/ai-tools-news/2026/04/",
           "dates": [
-            "2026-04-18",
-            "2026-04-17"
+            "2026-04-18"
           ]
         }
       ]
@@ -46,8 +44,7 @@
           "month": "2026-04",
           "route": "/general-news/2026/04/",
           "dates": [
-            "2026-04-18",
-            "2026-04-17"
+            "2026-04-18"
           ]
         }
       ]
@@ -86,39 +83,6 @@
       "month_route": "/general-news/2026/04/",
       "top_rank_title": "サンプル：公共サービスのオンライン手続き拡充が議論に",
       "ranking_count": 3
-    },
-    {
-      "category": "ai-news",
-      "date": "2026-04-17",
-      "month": "2026-04",
-      "title": "2026年4月17日 AIニュース解説",
-      "summary": "サンプルデータです。AIインフラとデータ品質を中心に、導入後の安定運用に関わる話題を整理しています。",
-      "route": "/ai-news/2026/04/17/",
-      "month_route": "/ai-news/2026/04/",
-      "top_rank_title": "サンプル：推論コスト最適化への関心が高まる",
-      "ranking_count": 2
-    },
-    {
-      "category": "ai-tools-news",
-      "date": "2026-04-17",
-      "month": "2026-04",
-      "title": "2026年4月17日 AIツールニュース解説",
-      "summary": "サンプルデータです。開発支援、検索、顧客対応など、日常業務に近いAIツールの動きを整理しています。",
-      "route": "/ai-tools-news/2026/04/17/",
-      "month_route": "/ai-tools-news/2026/04/",
-      "top_rank_title": "サンプル：開発支援AIがコードレビュー補助を強化",
-      "ranking_count": 2
-    },
-    {
-      "category": "general-news",
-      "date": "2026-04-17",
-      "month": "2026-04",
-      "title": "2026年4月17日 一般ニュース解説",
-      "summary": "サンプルデータです。経済活動、地域課題、消費者行動に関わる論点を日次形式で整理しています。",
-      "route": "/general-news/2026/04/17/",
-      "month_route": "/general-news/2026/04/",
-      "top_rank_title": "サンプル：地域商店街のデジタル販促支援が拡大",
-      "ranking_count": 2
     }
   ]
 }

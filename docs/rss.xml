@@ -27,26 +27,5 @@
       <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
       <description>サンプルデータです。社会、経済、テクノロジーの横断的な動きを、日次ニュース形式で整理しています。 / 1位: サンプル：公共サービスのオンライン手続き拡充が議論に</description>
     </item>
-    <item>
-      <title>2026年4月17日 AIニュース解説</title>
-      <link>http://localhost:5173/ai-news/2026/04/17/</link>
-      <guid>http://localhost:5173/ai-news/2026/04/17/</guid>
-      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
-      <description>サンプルデータです。AIインフラとデータ品質を中心に、導入後の安定運用に関わる話題を整理しています。 / 1位: サンプル：推論コスト最適化への関心が高まる</description>
-    </item>
-    <item>
-      <title>2026年4月17日 AIツールニュース解説</title>
-      <link>http://localhost:5173/ai-tools-news/2026/04/17/</link>
-      <guid>http://localhost:5173/ai-tools-news/2026/04/17/</guid>
-      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
-      <description>サンプルデータです。開発支援、検索、顧客対応など、日常業務に近いAIツールの動きを整理しています。 / 1位: サンプル：開発支援AIがコードレビュー補助を強化</description>
-    </item>
-    <item>
-      <title>2026年4月17日 一般ニュース解説</title>
-      <link>http://localhost:5173/general-news/2026/04/17/</link>
-      <guid>http://localhost:5173/general-news/2026/04/17/</guid>
-      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
-      <description>サンプルデータです。経済活動、地域課題、消費者行動に関わる論点を日次形式で整理しています。 / 1位: サンプル：地域商店街のデジタル販促支援が拡大</description>
-    </item>
   </channel>
 </rss>

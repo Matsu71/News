@@ -13,12 +13,5 @@
       <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
       <description>サンプルデータです。AI活用の評価、ガバナンス、現場実装をめぐる論点を日次レポート形式で整理しています。 / 1位: サンプル：AIモデル評価基準の見直しが進む</description>
     </item>
-    <item>
-      <title>2026年4月17日 AIニュース解説</title>
-      <link>http://localhost:5173/ai-news/2026/04/17/</link>
-      <guid>http://localhost:5173/ai-news/2026/04/17/</guid>
-      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
-      <description>サンプルデータです。AIインフラとデータ品質を中心に、導入後の安定運用に関わる話題を整理しています。 / 1位: サンプル：推論コスト最適化への関心が高まる</description>
-    </item>
   </channel>
 </rss>
