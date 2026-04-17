@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>http://localhost:5173/</loc></url>
-  <url><loc>http://localhost:5173/ai-news/</loc></url>
-  <url><loc>http://localhost:5173/ai-news/2026/04/</loc></url>
-  <url><loc>http://localhost:5173/ai-news/2026/04/18/</loc></url>
-  <url><loc>http://localhost:5173/ai-tools-news/</loc></url>
-  <url><loc>http://localhost:5173/ai-tools-news/2026/04/</loc></url>
-  <url><loc>http://localhost:5173/ai-tools-news/2026/04/18/</loc></url>
-  <url><loc>http://localhost:5173/general-news/</loc></url>
-  <url><loc>http://localhost:5173/general-news/2026/04/</loc></url>
-  <url><loc>http://localhost:5173/general-news/2026/04/18/</loc></url>
+  <url><loc>https://matsu71.github.io/News/</loc></url>
+  <url><loc>https://matsu71.github.io/News/ai-news/</loc></url>
+  <url><loc>https://matsu71.github.io/News/ai-news/2026/04/</loc></url>
+  <url><loc>https://matsu71.github.io/News/ai-news/2026/04/18/</loc></url>
+  <url><loc>https://matsu71.github.io/News/ai-tools-news/</loc></url>
+  <url><loc>https://matsu71.github.io/News/ai-tools-news/2026/04/</loc></url>
+  <url><loc>https://matsu71.github.io/News/ai-tools-news/2026/04/18/</loc></url>
+  <url><loc>https://matsu71.github.io/News/general-news/</loc></url>
+  <url><loc>https://matsu71.github.io/News/general-news/2026/04/</loc></url>
+  <url><loc>https://matsu71.github.io/News/general-news/2026/04/18/</loc></url>
 </urlset>

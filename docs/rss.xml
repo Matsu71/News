@@ -2,28 +2,28 @@
 <rss version="2.0">
   <channel>
     <title>毎日ニュース解説</title>
-    <link>http://localhost:5173/</link>
+    <link>https://matsu71.github.io/News/</link>
     <description>AIニュース、AIツールニュース、一般ニュースを日別に整理し、重要度と影響を読みやすくまとめる静的ニュース解説サイトです。</description>
     <language>ja</language>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:5173/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://matsu71.github.io/News/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026年4月18日 AIニュース解説</title>
-      <link>http://localhost:5173/ai-news/2026/04/18/</link>
-      <guid>http://localhost:5173/ai-news/2026/04/18/</guid>
+      <link>https://matsu71.github.io/News/ai-news/2026/04/18/</link>
+      <guid>https://matsu71.github.io/News/ai-news/2026/04/18/</guid>
       <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
       <description>サンプルデータです。AI活用の評価、ガバナンス、現場実装をめぐる論点を日次レポート形式で整理しています。 / 1位: サンプル：AIモデル評価基準の見直しが進む</description>
     </item>
     <item>
       <title>2026年4月18日 AIツールニュース解説</title>
-      <link>http://localhost:5173/ai-tools-news/2026/04/18/</link>
-      <guid>http://localhost:5173/ai-tools-news/2026/04/18/</guid>
+      <link>https://matsu71.github.io/News/ai-tools-news/2026/04/18/</link>
+      <guid>https://matsu71.github.io/News/ai-tools-news/2026/04/18/</guid>
       <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
       <description>サンプルデータです。AIツールのチーム利用、ワークフロー連携、レビュー機能に関する話題を整理しています。 / 1位: サンプル：AI文書作成ツールにチームレビュー機能が追加</description>
     </item>
     <item>
       <title>2026年4月18日 一般ニュース解説</title>
-      <link>http://localhost:5173/general-news/2026/04/18/</link>
-      <guid>http://localhost:5173/general-news/2026/04/18/</guid>
+      <link>https://matsu71.github.io/News/general-news/2026/04/18/</link>
+      <guid>https://matsu71.github.io/News/general-news/2026/04/18/</guid>
       <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
       <description>サンプルデータです。社会、経済、テクノロジーの横断的な動きを、日次ニュース形式で整理しています。 / 1位: サンプル：公共サービスのオンライン手続き拡充が議論に</description>
     </item>

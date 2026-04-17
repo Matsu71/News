@@ -21,7 +21,16 @@ import {
 
 export function renderHomePage(data: SiteData): string {
   const route = "/";
-  const latestEntries = data.entries.slice(0, 6);
+  const latestDate = data.entries[0]?.date ?? null;
+  const latestEntries =
+    siteConfig.homepage.showLatestDateOnly && latestDate
+      ? data.entries.filter((entry) => entry.date === latestDate)
+      : data.entries.slice(0, 6);
+  const latestHeading = latestDate ? `最新記事（${formatDateJa(latestDate)}）` : "最新記事";
+  const latestDescription =
+    siteConfig.homepage.showLatestDateOnly && latestDate
+      ? "トップページでは、サイト全体で最も新しい日付のニュースだけを表示しています。"
+      : "登録済みコンテンツから新しい順に表示しています。";
 
   const children = `<section class="shell intro-section">
       <div class="intro-copy">
@@ -48,8 +57,8 @@ export function renderHomePage(data: SiteData): string {
 
     <section class="shell section-block">
       <div class="section-heading">
-        <h2>最新記事</h2>
-        <p>登録済みコンテンツから新しい順に表示しています。</p>
+        <h2>${escapeHtml(latestHeading)}</h2>
+        <p>${escapeHtml(latestDescription)}</p>
       </div>
       <div class="day-list compact-list">
         ${latestEntries
