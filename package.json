@@ -1,0 +1,25 @@
+{
+  "name": "daily-news-commentary-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node --import tsx scripts/validate-content.ts",
+    "build": "npm run validate && npm run typecheck && node --import tsx scripts/build-site.ts",
+    "index": "node --import tsx scripts/build-content-index.ts",
+    "dev": "npm run build && vite --host 127.0.0.1 docs",
+    "preview": "npm run build && vite preview --host 127.0.0.1 --outDir docs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1"
+  }
+}

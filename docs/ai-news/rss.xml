@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AIニュース | 毎日ニュース解説</title>
+    <link>http://localhost:5173/ai-news/</link>
+    <description>AI技術、研究、規制、企業動向を中心に扱います。</description>
+    <language>ja</language>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:5173/ai-news/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年4月18日 AIニュース解説</title>
+      <link>http://localhost:5173/ai-news/2026/04/18/</link>
+      <guid>http://localhost:5173/ai-news/2026/04/18/</guid>
+      <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。AI活用の評価、ガバナンス、現場実装をめぐる論点を日次レポート形式で整理しています。 / 1位: サンプル：AIモデル評価基準の見直しが進む</description>
+    </item>
+    <item>
+      <title>2026年4月17日 AIニュース解説</title>
+      <link>http://localhost:5173/ai-news/2026/04/17/</link>
+      <guid>http://localhost:5173/ai-news/2026/04/17/</guid>
+      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。AIインフラとデータ品質を中心に、導入後の安定運用に関わる話題を整理しています。 / 1位: サンプル：推論コスト最適化への関心が高まる</description>
+    </item>
+  </channel>
+</rss>

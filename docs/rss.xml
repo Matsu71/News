@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>毎日ニュース解説</title>
+    <link>http://localhost:5173/</link>
+    <description>AIニュース、AIツールニュース、一般ニュースを日別に整理し、重要度と影響を読みやすくまとめる静的ニュース解説サイトです。</description>
+    <language>ja</language>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="http://localhost:5173/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年4月18日 AIニュース解説</title>
+      <link>http://localhost:5173/ai-news/2026/04/18/</link>
+      <guid>http://localhost:5173/ai-news/2026/04/18/</guid>
+      <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。AI活用の評価、ガバナンス、現場実装をめぐる論点を日次レポート形式で整理しています。 / 1位: サンプル：AIモデル評価基準の見直しが進む</description>
+    </item>
+    <item>
+      <title>2026年4月18日 AIツールニュース解説</title>
+      <link>http://localhost:5173/ai-tools-news/2026/04/18/</link>
+      <guid>http://localhost:5173/ai-tools-news/2026/04/18/</guid>
+      <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。AIツールのチーム利用、ワークフロー連携、レビュー機能に関する話題を整理しています。 / 1位: サンプル：AI文書作成ツールにチームレビュー機能が追加</description>
+    </item>
+    <item>
+      <title>2026年4月18日 一般ニュース解説</title>
+      <link>http://localhost:5173/general-news/2026/04/18/</link>
+      <guid>http://localhost:5173/general-news/2026/04/18/</guid>
+      <pubDate>Fri, 17 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。社会、経済、テクノロジーの横断的な動きを、日次ニュース形式で整理しています。 / 1位: サンプル：公共サービスのオンライン手続き拡充が議論に</description>
+    </item>
+    <item>
+      <title>2026年4月17日 AIニュース解説</title>
+      <link>http://localhost:5173/ai-news/2026/04/17/</link>
+      <guid>http://localhost:5173/ai-news/2026/04/17/</guid>
+      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。AIインフラとデータ品質を中心に、導入後の安定運用に関わる話題を整理しています。 / 1位: サンプル：推論コスト最適化への関心が高まる</description>
+    </item>
+    <item>
+      <title>2026年4月17日 AIツールニュース解説</title>
+      <link>http://localhost:5173/ai-tools-news/2026/04/17/</link>
+      <guid>http://localhost:5173/ai-tools-news/2026/04/17/</guid>
+      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。開発支援、検索、顧客対応など、日常業務に近いAIツールの動きを整理しています。 / 1位: サンプル：開発支援AIがコードレビュー補助を強化</description>
+    </item>
+    <item>
+      <title>2026年4月17日 一般ニュース解説</title>
+      <link>http://localhost:5173/general-news/2026/04/17/</link>
+      <guid>http://localhost:5173/general-news/2026/04/17/</guid>
+      <pubDate>Thu, 16 Apr 2026 15:00:00 GMT</pubDate>
+      <description>サンプルデータです。経済活動、地域課題、消費者行動に関わる論点を日次形式で整理しています。 / 1位: サンプル：地域商店街のデジタル販促支援が拡大</description>
+    </item>
+  </channel>
+</rss>
