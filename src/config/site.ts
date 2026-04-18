@@ -5,6 +5,6 @@ export const siteConfig = {
   language: "ja",
   defaultBaseUrl: "http://localhost:5173",
   homepage: {
-    showLatestDateOnly: true
+    categoryCardTopRankCount: 3
   }
 };

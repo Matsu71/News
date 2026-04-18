@@ -1,6 +1,7 @@
 import { siteConfig } from "../config/site.js";
 import { findAdjacentEntries } from "../lib/site-data.js";
 import {
+  absoluteUrl,
   displayUrlHost,
   escapeHtml,
   relativeUrl
@@ -21,48 +22,13 @@ import {
 
 export function renderHomePage(data: SiteData): string {
   const route = "/";
-  const latestDate = data.entries[0]?.date ?? null;
-  const latestEntries =
-    siteConfig.homepage.showLatestDateOnly && latestDate
-      ? data.entries.filter((entry) => entry.date === latestDate)
-      : data.entries.slice(0, 6);
-  const latestHeading = latestDate ? `最新記事（${formatDateJa(latestDate)}）` : "最新記事";
-  const latestDescription =
-    siteConfig.homepage.showLatestDateOnly && latestDate
-      ? "トップページでは、サイト全体で最も新しい日付のニュースだけを表示しています。"
-      : "登録済みコンテンツから新しい順に表示しています。";
-
-  const children = `<section class="shell intro-section">
-      <div class="intro-copy">
-        <p class="eyebrow">Daily News Commentary</p>
-        <h1>毎日のニュースを、後から読み返せる形で整理する。</h1>
-        <p>${escapeHtml(siteConfig.description)}</p>
-      </div>
-      <figure class="site-visual">
-        <img src="${relativeUrl(route, "/assets/site-card.png")}" alt="毎日ニュース解説サイトのキービジュアル">
-      </figure>
-    </section>
-
-    <section class="shell section-block">
+  const children = `<section class="shell section-block home-categories">
       <div class="section-heading">
         <h2>カテゴリ一覧</h2>
-        <p>各カテゴリの最新日付と説明です。カテゴリ追加時は content 配下にディレクトリを増やし、必要に応じて設定へ表示名を追加します。</p>
       </div>
       <div class="category-grid">
         ${data.categories
           .map((category) => renderCategoryCard(route, category))
-          .join("")}
-      </div>
-    </section>
-
-    <section class="shell section-block">
-      <div class="section-heading">
-        <h2>${escapeHtml(latestHeading)}</h2>
-        <p>${escapeHtml(latestDescription)}</p>
-      </div>
-      <div class="day-list compact-list">
-        ${latestEntries
-          .map((entry) => renderLatestCard(route, entry, data.categories))
           .join("")}
       </div>
     </section>`;
@@ -226,6 +192,10 @@ export function renderDailyPage(data: SiteData, category: CategoryBundle, entry:
 
 function renderCategoryCard(route: string, category: CategoryBundle): string {
   const latest = category.latestEntry;
+  const latestUrl = latest ? absoluteUrl(latest.route) : "";
+  const topRankCount = siteConfig.homepage.categoryCardTopRankCount;
+  const topRanks = latest?.ranking.slice(0, topRankCount) ?? [];
+
   return `<article class="category-card">
     <h3><a href="${relativeUrl(route, category.route)}">${escapeHtml(category.definition.name)}</a></h3>
     <p>${escapeHtml(category.definition.description)}</p>
@@ -238,17 +208,23 @@ function renderCategoryCard(route: string, category: CategoryBundle): string {
         <dt>最新記事</dt>
         <dd>${latest ? `<a href="${relativeUrl(route, latest.route)}">${escapeHtml(latest.title)}</a>` : "未登録"}</dd>
       </div>
+      <div>
+        <dt>最新記事URL</dt>
+        <dd>${latest ? `<a class="article-url" href="${relativeUrl(route, latest.route)}">${escapeHtml(latestUrl)}</a>` : "未登録"}</dd>
+      </div>
     </dl>
-  </article>`;
-}
-
-function renderLatestCard(route: string, entry: NewsEntry, categories: CategoryBundle[]): string {
-  const category = categories.find((item) => item.definition.key === entry.category);
-  return `<article class="day-card">
-    <p class="day-card-date">${escapeHtml(category?.definition.name ?? entry.category)} / ${escapeHtml(formatDateJa(entry.date))}</p>
-    <h3><a href="${relativeUrl(route, entry.route)}">${escapeHtml(entry.title)}</a></h3>
-    <p>${escapeHtml(entry.summary)}</p>
-    <p class="top-rank">1位: ${escapeHtml(entry.ranking[0]?.title ?? "未登録")}</p>
+    <div class="category-top-ranks">
+      <h4>最新記事ランキング TOP${topRankCount}</h4>
+      ${
+        topRanks.length > 0
+          ? `<ol>
+              ${topRanks
+                .map((item) => `<li><a href="${relativeUrl(route, `${latest?.route ?? ""}#rank-${item.rank}`)}">${escapeHtml(item.title)}</a></li>`)
+                .join("")}
+            </ol>`
+          : `<p>未登録</p>`
+      }
+    </div>
   </article>`;
 }
 
