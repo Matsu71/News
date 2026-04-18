@@ -1,7 +1,6 @@
 import { siteConfig } from "../config/site.js";
 import { findAdjacentEntries } from "../lib/site-data.js";
 import {
-  absoluteUrl,
   displayUrlHost,
   escapeHtml,
   relativeUrl
@@ -192,25 +191,15 @@ export function renderDailyPage(data: SiteData, category: CategoryBundle, entry:
 
 function renderCategoryCard(route: string, category: CategoryBundle): string {
   const latest = category.latestEntry;
-  const latestUrl = latest ? absoluteUrl(latest.route) : "";
   const topRankCount = siteConfig.homepage.categoryCardTopRankCount;
   const topRanks = latest?.ranking.slice(0, topRankCount) ?? [];
 
   return `<article class="category-card">
     <h3><a href="${relativeUrl(route, category.route)}">${escapeHtml(category.definition.name)}</a></h3>
-    <p>${escapeHtml(category.definition.description)}</p>
     <dl>
-      <div>
-        <dt>最新更新日</dt>
-        <dd>${latest ? escapeHtml(formatDateJa(latest.date)) : "未登録"}</dd>
-      </div>
       <div>
         <dt>最新記事</dt>
         <dd>${latest ? `<a href="${relativeUrl(route, latest.route)}">${escapeHtml(latest.title)}</a>` : "未登録"}</dd>
-      </div>
-      <div>
-        <dt>最新記事URL</dt>
-        <dd>${latest ? `<a class="article-url" href="${relativeUrl(route, latest.route)}">${escapeHtml(latestUrl)}</a>` : "未登録"}</dd>
       </div>
     </dl>
     <div class="category-top-ranks">

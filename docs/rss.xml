@@ -3,7 +3,7 @@
   <channel>
     <title>毎日ニュース解説</title>
     <link>https://matsu71.github.io/News/</link>
-    <description>AIニュース、AIツールニュース、一般ニュースを日別に整理し、重要度と影響を読みやすくまとめる静的ニュース解説サイトです。</description>
+    <description>重要ニュースを毎日わかりやすく解説します。</description>
     <language>ja</language>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://matsu71.github.io/News/rss.xml" rel="self" type="application/rss+xml" />
     <item>

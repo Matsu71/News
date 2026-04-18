@@ -215,7 +215,6 @@ h4 {
   gap: 16px;
 }
 
-.category-card p,
 .day-card p {
   margin: 0;
   color: var(--color-muted);
@@ -227,10 +226,6 @@ h4 {
   display: grid;
   gap: 12px;
   margin: 0;
-}
-
-.article-url {
-  overflow-wrap: anywhere;
 }
 
 .category-top-ranks {
