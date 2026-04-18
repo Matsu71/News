@@ -56,10 +56,10 @@
       "date": "2026-04-18",
       "month": "2026-04",
       "title": "2026年4月18日 AIニュース解説",
-      "summary": "サンプルデータです。AI活用の評価、ガバナンス、現場実装をめぐる論点を日次レポート形式で整理しています。",
+      "summary": "午前7時区切りの24時間では、OpenAIの計算基盤拡張報道、AnthropicのMythosをめぐる米政府協議、米議会のAIリスク議論が目立ちました。",
       "route": "/ai-news/2026/04/18/",
       "month_route": "/ai-news/2026/04/",
-      "top_rank_title": "サンプル：AIモデル評価基準の見直しが進む",
+      "top_rank_title": "OpenAI、Cerebrasに200億ドル超を投じAI計算基盤を拡張へとの報道",
       "ranking_count": 3
     },
     {
@@ -67,10 +67,10 @@
       "date": "2026-04-18",
       "month": "2026-04",
       "title": "2026年4月18日 AIツールニュース解説",
-      "summary": "サンプルデータです。AIツールのチーム利用、ワークフロー連携、レビュー機能に関する話題を整理しています。",
+      "summary": "午前7時区切りの24時間では、Claude Design、Google AI Modeの店舗在庫確認、Factoryの大型調達が目立ちました。",
       "route": "/ai-tools-news/2026/04/18/",
       "month_route": "/ai-tools-news/2026/04/",
-      "top_rank_title": "サンプル：AI文書作成ツールにチームレビュー機能が追加",
+      "top_rank_title": "Anthropic、Claude Designを発表",
       "ranking_count": 3
     },
     {
@@ -78,10 +78,10 @@
       "date": "2026-04-18",
       "month": "2026-04",
       "title": "2026年4月18日 一般ニュース解説",
-      "summary": "サンプルデータです。社会、経済、テクノロジーの横断的な動きを、日次ニュース形式で整理しています。",
+      "summary": "午前7時区切りの24時間では、ホルムズ海峡をめぐる国際協議、国家情報会議設置法案、京都の男児遺体遺棄事件の続報が目立ちました。",
       "route": "/general-news/2026/04/18/",
       "month_route": "/general-news/2026/04/",
-      "top_rank_title": "サンプル：公共サービスのオンライン手続き拡充が議論に",
+      "top_rank_title": "英仏主導でホルムズ海峡再開へ国際協議、米国抜きの航行安全構想",
       "ranking_count": 3
     }
   ]
